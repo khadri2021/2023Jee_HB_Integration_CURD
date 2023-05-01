@@ -1,0 +1,15 @@
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<welcome-file-list>
+		<welcome-file>admin.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>reg</servlet-name>
+		<servlet-class>com.khadri.jee.hibernate.integration.servlet.StudentController
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reg</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+</web-app>
